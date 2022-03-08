@@ -10,6 +10,11 @@ body {
   color: crimson;
 }
 
+#main-container {
+  min-height: 500px;
+  color: white;
+}
+
 .main-img {
   z-index: -1;
   background-image: url("./images/main-img.jpg");
@@ -20,9 +25,28 @@ body {
   top: 0;
 }
 
-#main-container {
-  min-height: 500px;
-  color: white;
+#myname {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+#position {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+.project-name {
+  color: #000;
+}
+
+hr {
+  background-color: red;
+  height: 1px;
+  border: 0;
 }
 
 .footer {
