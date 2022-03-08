@@ -2,6 +2,14 @@ body {
   position: relative;
 }
 
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: crimson;
+}
+
 .main-img {
   z-index: -1;
   background-image: url("./images/main-img.jpg");
