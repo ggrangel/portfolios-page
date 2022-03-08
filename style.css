@@ -8,11 +8,17 @@ body {
   background-size: cover;
   min-height: 600px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
+  /* background-repeat: no-repeat; */
+  /* background-positoin: bottom; */
 }
 
 #main-container {
   min-height: 500px;
   color: white;
+}
+
+#projects-header {
+  text-align: center;
 }
